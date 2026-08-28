@@ -1,0 +1,9 @@
+.DS_Store
+
+# Local source corpus used to derive the portable skill.
+/essays/
+/papers/
+/txt_files/
+/graph-ride.txt
+/spider.txt
+/writing_style_guide.md

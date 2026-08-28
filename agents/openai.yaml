@@ -1,0 +1,5 @@
+interface:
+  display_name: "Chao Writing"
+  short_description: "Write direct, concrete, attribution-aware prose"
+  default_prompt: "Use $chao-writing to draft or revise this text in Chao Xu's direct, concrete style while preserving every factual claim."
+
