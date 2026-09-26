@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prose Writing"
+  short_description: "Write direct prose while preserving meaning"
+  default_prompt: "Use $prose-writing to draft or revise this text with direct claims and concrete detail while preserving its facts and uncertainty."

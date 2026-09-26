@@ -1,0 +1,4 @@
+interface:
+  display_name: "Paper Editing"
+  short_description: "Revise research papers with precise attribution"
+  default_prompt: "Use $paper-editing to revise this manuscript within the requested scope, checking proof clarity and exact attribution."
