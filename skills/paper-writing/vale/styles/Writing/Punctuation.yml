@@ -1,0 +1,6 @@
+extends: existence
+message: "Review '%s' against the prose punctuation rules. Split authorial semicolons or replace decorative middle dots. Keep quoted text and formal notation unchanged."
+level: warning
+nonword: true
+tokens:
+  - '[;；·]'

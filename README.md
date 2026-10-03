@@ -60,6 +60,8 @@ Each skill bundles an optional local terminology report at `scripts/terminology.
 
 The instruction workflow has no executable dependency. Tasks can still require ordinary tools: source access for citation verification, a TeX distribution for a LaTeX build, or a PDF viewer for layout inspection. Use the recipient's available tools and report any checks that could not be completed. No particular PDF plugin or private toolchain is required.
 
+Each skill also bundles an optional [Vale style report](skills/prose-writing/references/style-report.md). It uses the installed Vale CLI and Bun to report phrases, punctuation, and academic-register concerns with source locations and reasons. Academic and informal profiles preserve their different registers. The helper masks common Markdown and TeX control material using the terminology tool's source inventory. The verifier judges each flag in context. A report does not establish mathematical correctness or replace review.
+
 The collection combines the earlier repository's prose and revision guidance with the current manuscript rules. It includes established terminology, mathematical pseudocode, citation-before-reproof, and an editor–verifier loop scaled to the requested work. Style reviews use concrete feedback. Numerical AI-likelihood scores are optional, uncalibrated judgments and are never completion criteria.
 
 Licensed under [MIT](LICENSE).

@@ -1,0 +1,10 @@
+extends: existence
+message: "Check the evidence or stated implication behind '%s'. Give the precise contribution or needed proof step when the expression adds no information."
+level: suggestion
+ignorecase: true
+tokens:
+  - groundbreaking
+  - revolutionary
+  - paradigm-shifting
+  - obviously
+  - clearly

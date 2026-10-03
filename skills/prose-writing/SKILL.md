@@ -20,4 +20,6 @@ Check the finished text's facts, names, numbers, citations, modality, and reques
 
 Keep established and defined technical names consistent. Use one name per concept and preserve meaningful distinctions. For vocabulary frequencies, contexts, and declared aliases, read [references/terminology-report.md](references/terminology-report.md). Its optional tool supplies candidates for the verifier's semantic review.
 
+Run the bundled Vale [style report](references/style-report.md) before verifier review of supported source files when Vale and Bun are available. Select the profile matching the deliverable's register and give the verifier the located findings and reasons. It decides which flags are violations in context.
+
 Deliver the finished prose. Add only the short explanation or unresolved question the user needs, unless a review or change report was requested. Editing does not itself authorize publication or sending a message.

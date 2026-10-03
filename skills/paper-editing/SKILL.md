@@ -31,6 +31,7 @@ A wording edit does not require a manuscript-wide literature audit. A mathematic
 - Before applying a reviewer finding, verify it against the proof, definitions, or source. Reviewers can be wrong about standard facts and local notation.
 - Every writing deliverable requires the separate verifier. A substantive proof change or full audit may warrant additional reviewers for distinct obligations within the user's delegation limits.
 - Preserve defined and established names. For suspected aliases, identify both expressions and explain from their definitions or uses why they denote the same concept. Review sparse and new terms in context. Use the optional [terminology report](references/terminology-report.md) for frequencies, contexts, and declared aliases.
+- Run the bundled Vale [style report](references/style-report.md) with the academic profile before verifier review when Vale and Bun are available. Supply its located findings and reasons, and check only source files relevant to the requested edit.
 - Check affected cross-references, citation keys, theorem numbers, and the build or rendering. Inspect layout when relevant. Report unavailable source or tool checks accurately.
 - Fix supported findings and return the revised text to the verifier. A clean verdict ends the loop. Later edits reopen verification.
 

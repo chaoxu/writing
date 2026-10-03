@@ -29,6 +29,8 @@ Check the affected mathematical implications, attribution, definitions, notation
 
 Preserve established and defined technical names. Review new names, sparse terms, first uses, and expressions that may denote the same concept. Keep new terminology when it adds a necessary distinction. The optional [terminology report](references/terminology-report.md) supplies vocabulary frequencies, contexts, and declared aliases for the verifier to inspect.
 
+Run the bundled Vale [style report](references/style-report.md) with the academic profile before verifier review when Vale and Bun are available. Give the verifier its located findings and reasons alongside any terminology report. Inspect the source context before applying a flag.
+
 After each revision, return the current text to the verifier. Its clean verdict ends the loop. Additional reviewers may cover distinct obligations within the user's delegation limits.
 
 Deliver the manuscript in the requested format. Briefly report substantive limitations, unresolved proof or citation questions, and the validation actually performed. Writing a result does not certify its novelty.

@@ -1,0 +1,9 @@
+extends: existence
+message: "Check whether '%s' adds a logical relation. Remove it when the claim survives unchanged."
+level: warning
+ignorecase: true
+nonword: true
+tokens:
+  - '\b(?:it\s+is|it''s)\s+worth\s+noting(?:\s+that)?\b'
+  - '\b(?:to\s+be\s+honest|frankly\s+speaking|simply\s+put|as\s+we\s+all\s+know|at\s+the\s+end\s+of\s+the\s+day)\b'
+  - '说白了|老实说|坦率地讲|讲真|简单来说|简而言之|综上所述|值得注意的是|需要指出的是|众所周知'
