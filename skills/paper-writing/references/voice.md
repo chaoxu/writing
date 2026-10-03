@@ -34,6 +34,10 @@ Authorial prose does not use semicolons. Split independent claims or use a colon
 
 Keep numbers that carry a claim, measurement, provenance, or actionable count. Remove counts and numeric symmetry used only to decorate a heading or imply significance.
 
+## Terminology
+
+Use established and defined technical names consistently. Once a mathematical concept has a name, keep that name rather than inventing synonyms for variety. Preserve different names for different concepts. Review a new or sparse term for the distinction it contributes, and replace redundant names with the established term. The verifier explains why a suspected alias denotes the same concept before recommending a change. Vocabulary counts are review aids, not a target score.
+
 ## Register
 
 Preserve the user's language and degree of formality. Mixed Chinese and established English terminology is acceptable when natural for the audience. Define unfamiliar technical terms and avoid forced slang.

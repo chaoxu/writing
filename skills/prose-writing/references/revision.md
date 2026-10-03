@@ -18,9 +18,9 @@ Keep qualifications that affect truth conditions, counterexamples that establish
 
 Remove empty intensifiers, superficial trailing significance clauses, false ranges, decorative triples, passive circumlocutions, and dramatic fragments. Do not replace them with slang or conversational filler.
 
-When the user explicitly asks for a de-AI rewrite, seek fresh blind style feedback when a reviewer is available and delegation is authorized. Give that reviewer only the final text and intended audience, and request concrete suspect phrases and proposed edits. Separately compare the original and revision for facts, uncertainty, and modality. A second agent is not required for that comparison.
+For a de-AI rewrite, first give a fresh verifier only the final text and intended audience for blind style feedback. Request concrete suspect phrases and proposed edits. Then provide the original and requirements for a separate comparison of facts, uncertainty, and modality. Resolve findings through the [editor and verifier](editor-verifier.md) loop, which also applies to ordinary prose edits.
 
-If independent review is unavailable, perform the comparison and style pass with the available tools. Describe it accurately if reporting review status. Ordinary prose edits do not need blind review.
+If an independent verifier is unavailable, report the unfinished verification. Keep the draft's review status accurate.
 
 Numerical AI-likelihood scores are uncalibrated stylistic judgments. Supply them only on request and never use them as completion criteria. Act on concrete findings and repeat checks only when a revision or unresolved issue warrants it.
 

@@ -54,8 +54,12 @@ Both paper skills use the same mathematical standards. In particular, **cite kno
 
 ## Tools and portability
 
-The skills are Markdown instructions with no executable dependencies. Tasks can still require ordinary tools: source access for citation verification, a TeX distribution for a LaTeX build, or a PDF viewer for layout inspection. Use the recipient's available tools and report any checks that could not be completed. No particular PDF plugin or private toolchain is required.
+Every writing deliverable uses an editor and a separate verifier agent. The verifier identifies concrete violations of the writing requirements, explains why they fail, and checks revisions until no unresolved issues remain in the requested scope. A clean verdict ends the loop. If independent verification is unavailable, report the draft's unfinished review status. The workflow uses the recipient's agent delegation tools and requires no particular model provider.
 
-The collection combines the earlier repository's prose and revision guidance with the current manuscript rules. It includes established terminology, mathematical pseudocode, citation-before-reproof, and review scaled to the requested work. Style reviews use concrete feedback. Numerical AI-likelihood scores are optional, uncalibrated judgments and are never completion criteria.
+Each skill bundles an optional local terminology report at `scripts/terminology.ts`. Run it with Bun as described in that skill's `references/terminology-report.md`. It reports vocabulary frequencies, first occurrences, contexts, and aliases declared in an optional glossary. The verifier checks whether two expressions actually denote the same mathematical concept. The tool reads local text and makes no changes or network calls.
+
+The instruction workflow has no executable dependency. Tasks can still require ordinary tools: source access for citation verification, a TeX distribution for a LaTeX build, or a PDF viewer for layout inspection. Use the recipient's available tools and report any checks that could not be completed. No particular PDF plugin or private toolchain is required.
+
+The collection combines the earlier repository's prose and revision guidance with the current manuscript rules. It includes established terminology, mathematical pseudocode, citation-before-reproof, and an editor–verifier loop scaled to the requested work. Style reviews use concrete feedback. Numerical AI-likelihood scores are optional, uncalibrated judgments and are never completion criteria.
 
 Licensed under [MIT](LICENSE).

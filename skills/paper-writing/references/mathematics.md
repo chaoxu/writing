@@ -45,6 +45,8 @@ Theorem, lemma, proposition, corollary, and definition blocks contain their hypo
 
 Use one stable name per concept and one role per symbol. Check for collisions across sections. Prefer plain uppercase for sets, calligraphic letters for collections, and lowercase letters for elements when the field and existing manuscript allow it. Keep established notation when changing it would confuse the reader.
 
+Preserve names already introduced in the manuscript or established in the cited literature. For a suspected alias, quote both expressions and use their definitions or context to explain why they name the same concept. New terminology is justified by a necessary mathematical distinction, rather than by variety. Inspect sparse terms and first uses. The optional [terminology report](terminology-report.md) supplies word frequencies, contexts, and declared aliases. A smaller vocabulary count does not establish clearer or correct mathematics.
+
 Use unambiguous inclusion symbols such as `\subseteq` and `\subsetneq`, and `\setminus` for set difference. Follow the document's native math delimiters, bibliography format, and label conventions. Prefix labels by their kind where supported, for example `thm:`, `lem:`, `eq:`, and `sec:`.
 
 Use conventional asymptotic expressions with all relevant parameter factors visible. Simplify harmless shifts only when the stated domain supports it, handling exceptional small or empty cases explicitly. Check every logarithmic factor and distinguish arithmetic time, bit complexity, and oracle calls when the result does.
@@ -71,6 +73,6 @@ Preserve deliberate author wording, qualifications, and proof ideas within the r
 
 For the affected material, check proof economy, duplication, undefined terms, symbol clashes, load-bearing implications, attribution, and cross-references. Combine these checks in one pass when practical. Check that the body and any appendices have the dependencies the text promises.
 
-Validate citation keys, source locators, theorem numbers, and the actual build or rendering when tools are available. A local wording edit needs a local meaning check. Proof changes need relevant dependency and source checks. A full audit needs manuscript-wide scrutiny. Broaden or repeat checks only for changes, failures, or unresolved concerns.
+Validate citation keys, source locators, theorem numbers, and the actual build or rendering when tools are available. Every writing deliverable uses the [editor and verifier](editor-verifier.md) loop. A local wording edit needs a separate verifier for local meaning and terminology. Proof changes need relevant dependency and source checks. A full audit needs manuscript-wide scrutiny. Return each revision to the verifier until no unresolved issues remain in the requested scope.
 
 Review reports should identify concrete issues with locations, quoted text, and reasons. Distinguish mathematical defects, unverified claims, and optional style changes. Verify reviewer claims before applying them. Report the validation performed and any remaining mathematical or source uncertainty.
