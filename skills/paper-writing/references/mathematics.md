@@ -49,6 +49,8 @@ Preserve names already introduced in the manuscript or established in the cited 
 
 Use unambiguous inclusion symbols such as `\subseteq` and `\subsetneq`, and `\setminus` for set difference. Follow the document's native math delimiters, bibliography format, and label conventions. Prefix labels by their kind where supported, for example `thm:`, `lem:`, `eq:`, and `sec:`.
 
+Prefer inline math for short expressions, definitions, equalities, and inequalities. Use display math only when needed for readability, multiline or aligned reasoning, a DP recurrence, or an equation referenced later. A label alone does not justify display. The separate verifier explicitly checks this placement within the requested scope, explains each proposed change, and rechecks punctuation and equation references after conversion.
+
 Use conventional asymptotic expressions with all relevant parameter factors visible. Simplify harmless shifts only when the stated domain supports it, handling exceptional small or empty cases explicitly. Check every logarithmic factor and distinguish arithmetic time, bit complexity, and oracle calls when the result does.
 
 ## Proofs
